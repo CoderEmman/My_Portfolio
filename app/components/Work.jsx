@@ -8,9 +8,9 @@ function Work() {
       <h4 className='text-center mb-2 text-lg font-Ovo'>My portfolio</h4>
       <h2 className='text-center text-5xl font-Ovo'>My latest work</h2>
       <p className='text-center mb-12 max-w-2xl mx-auto mt-5 font-Ovo'>
-        Welcome to my web development portfolio! Explore a 
+        Welcome to my software development portfolio! Explore a 
         collection of projects showcasing my expertise in
-        front-end development
+        software development
       </p>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-10 gap-5'>
         {workData.map((project, index)=>(
@@ -29,9 +29,6 @@ function Work() {
             </div>
         ))}
       </div>
-      <a href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10
-      mx-auto my-20 hover:bg-lightHover duration-500'>Show more <Image src={assets.right_arrow_bold} alt='Right arrow'
-      className='w-4'/></a>
     </div>
   )
 }

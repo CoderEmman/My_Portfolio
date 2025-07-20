@@ -12,10 +12,11 @@ const About = () => {
             <Image src={assets.user_image} alt='user' className='w-full rounded-3xl'/>
         </div>
         <div className='flex-1'>
-            <p className='mb-10 max-w-2xl font-Ovo'>I am an experienced Frontend Developer with over a decade of professional
-                expertise in the field. Throughout my career, I have had the 
-                privilege of collaborating with prestigious organizations, contributing
-                to their sucess and growth.
+            <p className='mb-10 max-w-2xl font-Ovo'>I am an aspiring Software Developer 
+                with a growing background in Machine Learning and a strong foundation in 
+                Computer Science. Throughout my academic journey, I have taken part in various 
+                projects and collaborated with student organizations, honing my skills and 
+                passion for building user-centered digital experiences.
             </p>
             <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                 {infoList.map(({icon, iconDark, title, description}, index)=>(
