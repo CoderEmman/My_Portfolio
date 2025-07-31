@@ -37,6 +37,7 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import github_icon from './github_icon.png';
 import linkedin_icon from './linkedin_icon.png';
+import download_icon_white from './download-icon-white.png';
 
 export const assets = {
     user_image,
@@ -77,7 +78,8 @@ export const assets = {
     right_arrow_bold,
     right_arrow_bold_dark,
     github_icon,
-    linkedin_icon
+    linkedin_icon,
+    download_icon_white
 };
 
 export const workData = [

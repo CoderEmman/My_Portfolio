@@ -12,7 +12,7 @@ function Header() {
       <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>Software developer</h1>    
       <p className='max-w-exl mx-auto font-Ovo'>I am a graduating student from Mapúa Malayan Colleges Laguna, taking up Bachelor of Science in Computer Science</p>
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-        <a href="#contact" className='px-10 py-3 boerder border-white rounded-full bg-black text-white flex items-center gap-2'>contact me <Image src={assets.right_arrow_white} alt='' className='w-4'/></a>
+        <a href="/TorrecampoEmman_PracticumReport.pdf" download className='px-10 py-3 boerder border-white rounded-full bg-black text-white flex items-center gap-2'>practicum report <Image src={assets.download_icon_white} alt='' className='w-4'/></a>
         <a href="/TorrecampoEmman_CV.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>my resume <Image src={assets.download_icon} alt='' className='w-4'/></a>
       </div>
     </div>
