@@ -82,28 +82,22 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: '.Net Project',
+        description: 'Parking Management System',
+        bgImage: '/ParkMS.png',
         githubUrl: "https://github.com/CoderEmman/MMCL_Parking_Management_System.git",
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-        githubUrl: "https://github.com/CoderEmman/MMCL_Parking_Management_System.git",
+        title: 'Prediction app',
+        description: 'Fruit or Vegatable Predictor App',
+        bgImage: '/FruitVeggiePredict.png',
+        githubUrl: "https://github.com/CoderEmman/Fruit-or-Vegetable-Prediction-Model-With-UI.git",
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-        githubUrl: "https://github.com/CoderEmman/MMCL_Parking_Management_System.git",
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-        githubUrl: "https://github.com/CoderEmman/MMCL_Parking_Management_System.git",
+        title: 'Nutritrack',
+        description: 'Personalized Nutrition Tracking App',
+        bgImage: '/Nutritrack.png',
+        githubUrl: "https://github.com/CoderEmman/NutriTrack.git",
     },
 ]
 

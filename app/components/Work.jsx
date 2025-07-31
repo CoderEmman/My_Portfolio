@@ -13,7 +13,7 @@ function Work() {
         collection of projects showcasing my expertise in
         software development
       </p>
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-10 gap-5'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 my-10 gap-5'>
         {workData.map((project, index)=>(
             <Link key={index} href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                 <div className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'
